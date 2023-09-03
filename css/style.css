@@ -635,9 +635,9 @@ footer h3 {
  text-align: center;
  width: 90%;
 }
- .type{
+.type{
     width: 85%;
-}      
+}
 .manzl{
     flex-direction: column;
     margin-left: 3%;
@@ -697,7 +697,7 @@ footer h3 {
     margin-left: -12%;
 }
 .star h3{
-margin-left: 15%;
+    margin-left: 15%;
 }
 .chat{
     flex-direction: column;
@@ -709,7 +709,7 @@ margin-left: 15%;
     flex-wrap: wrap;
     margin-left: 15%;
 }
-    .send{
+.send{
     width: 85%;
 }
 .send input{
