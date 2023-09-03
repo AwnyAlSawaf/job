@@ -615,15 +615,15 @@ footer h3 {
  }
 .build{
     position: relative;
-    left: 39px;
+    left: 20px;
 }
 .sea{
     position: relative;
-    left: 39px;
+    left: 20px;
 }
 .hand{
     position: relative;
-    left: 39px;
+    left: 20px;
 }
 .view{
     flex-direction: column;
