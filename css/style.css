@@ -1,0 +1,714 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+nav {
+    display: flex;
+    align-items: center;
+    margin-left: 12%;
+    margin-top: 2%;
+}
+.boss nav{
+    justify-content: space-between;
+}
+nav a {
+    text-decoration: none;
+    padding: 10px;
+    color: black;
+}
+
+.nav-links {
+    display: flex;
+    align-items: center;
+    margin-right: 12%;
+
+}
+
+.burger-menu {
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+.bar {
+    width: 30px;
+    height: 3px;
+    background-color: black;
+    margin: 3px 0;
+}
+
+.life{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 5%;
+}
+.left{
+    display: flex;
+    flex-direction: column;
+}
+.left .town{
+    margin-left: 80.1%;
+    margin-top: -75%;
+    height: 10%;
+}
+.town img{
+width: 550px;
+}
+.left h3{
+    color: #FF9900;
+
+    margin-top: 7.5%;
+    margin-left: 11%;
+}
+.left #p{
+    font-size: xx-large;
+    margin-left: 6.8%;
+    padding: 35px;
+}
+.left #t{
+    margin-left: 11%;
+    padding-bottom: 45px;
+}
+.left .search{
+    margin-left: 8%;
+}
+::placeholder{
+    position: absolute;
+    left:  45px;
+}
+.search i{
+    position: relative;
+    bottom: 1px;
+    right: -37px;
+}
+.search input{
+    padding: 20px;
+    width: 70%;
+    padding-right: 25px;
+    height: 40px;
+}
+.search button{
+    width: 145px;
+    height: 84px;
+    border: none;
+    padding: 20px;
+    background-color: #F85A47;
+    color: white;
+    position: relative;left: -5px;
+}
+.left h5{
+    margin-top: 22%;
+    margin-left: 7%;
+}
+.shar{
+    margin-top: 3%;
+    margin-left: 7%;
+    display: flex;
+    
+}
+.shar img{
+    padding-right: 50px;
+}
+.right{
+    z-index: -1;
+     background-color: #BDCCFF;
+    
+    height: 570px;
+    width: 450px;
+   
+    padding-top: 20%;
+   margin-top: -15%;
+}
+
+.right i{
+    margin-left: 91%;
+    
+    padding: 8px;
+}
+ul{
+    list-style: none;
+    margin-top: 30%;
+    
+}
+
+.clear{
+    clear: both;
+}
+.work{
+    text-align: center;
+    margin-top: 20%;
+}
+.card{
+    display: inline-flex;
+    margin-top: 5%;
+    margin-left: 5%;
+}
+.sea{
+    background-color: #9672FF;
+    color: white;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 80px;
+    margin-left: 35%;
+    margin-bottom: 30px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+.hand{
+    background-color: #4DDFFD;
+    color: white;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 80px;
+    margin-left: 35%;
+    margin-bottom: 30px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px; 
+}
+.build{
+    background-color: #F2B8EC;
+    color: white;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 80px;
+    margin-left: 35%;
+    margin-bottom: 30px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;   
+}
+.card h1{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+svg{
+    margin-top: 25px;
+}
+.house{
+    margin-left: 7%;
+    margin-top: 10%;
+}
+.view{
+    display: inline-flex;
+    margin-bottom: 1%;
+    gap: 770px;
+}
+.house p{
+    width: 30%;
+    font-size: large;
+}
+.view button{
+    
+    background-color: #F85A47;
+    color: white;
+    padding-top: 13px;
+    padding-bottom: 13px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.type{
+    gap: 20px;
+    margin-left: -0.1%;
+    
+}
+.type button{
+    color: black;
+    background-color: transparent;
+    border: none;
+}
+#a{
+    color:#F85A47 ;
+    padding-bottom: 10px;
+    border-bottom:2px solid #F85A47 ;
+}
+.manzl{
+    display: inline-flex;
+    margin-top: 3%;
+    position: relative;
+    gap: 25px;
+}
+ .span{
+    border: 1px solid white;
+    font-size: 0.9rem;
+    font-weight: 100;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.332);
+    position: absolute;
+    top: 20px;
+    margin-left: 7px;
+    padding: 3px;
+    border-radius: 2px;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    -ms-border-radius: 2px;
+    -o-border-radius: 2px;
+}
+.d{
+    border: 1px solid white;
+    background-color: rgba(0, 0, 0, 0.332);
+    color: white;
+    position: absolute;
+    top: 20px;
+    margin-left: 77px;
+    padding: 3px;
+    border-radius: 2px;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    -ms-border-radius: 2px;
+    -o-border-radius: 2px;
+}
+
+
+.of {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 8%; 
+  }
+  .of h3{
+    text-align: center;
+    margin-bottom: 5%;
+    font-size: x-large;
+}
+  .week {
+    background-color: #F1FFFF;
+    display: flex;
+    justify-content: center;
+    max-width: 70%; /* Adjust the max-width as needed */
+    padding: 20px;
+    border: none;
+    
+  }
+  .image-container {
+    position: relative;
+    padding-bottom: 100px;
+  }
+  
+  .image-container img {
+    display: block;
+    /* max-width: 100%; */
+  }
+  
+  .image-container img:last-child {
+    position: absolute;
+    top: -20%;
+    left: 55%;
+    transform: translate(-50%, 50%);
+    -webkit-transform: translate(-50%, 50%);
+    -moz-transform: translate(-50%, 50%);
+    -ms-transform: translate(-50%, 50%);
+    -o-transform: translate(-50%, 50%);
+}
+#b{
+    width: 600px;
+    
+}
+.size{
+    display: inline-flex;
+    gap: 100%;
+    font-weight: bold;
+}
+.son{
+    margin-top: 3%;
+    margin-left: 5%;
+}
+.son h3{
+    padding-bottom: 20px;
+    margin-left: -2%;
+    width: 60%;
+    
+    font-size: x-large;
+    font-weight: 5.5rem;
+}
+#or{
+    width: 60%;
+    margin-top: 1%;
+    margin-bottom: 4%;
+}
+.bud{
+    display: flex;
+    gap: 13.5%;
+    margin-top: 2.5%;
+    
+}
+#o{
+    padding-right: 24px;
+}
+.flat{
+    display: inline-flex;
+    gap: 74%;
+    margin-top: 4%;
+    font-weight: bold;
+}
+#sta{
+    position: relative;
+    left: 10px;
+}
+.done{
+    display: flex;
+    gap: 18%;
+    margin-top: 2.5%;
+}
+#city{
+    position: relative;
+    left: 22px;
+}
+.yes{
+    margin-top: 19%;
+    
+}
+.yes button{
+    background-color: #F85A47;
+    color: white;
+    width: 65%;
+    padding: 10px;
+    border:none;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+.star h3{
+    margin-top: 10%;
+    margin-left: 5%;
+    margin-bottom: 3%;
+    font-size: x-large;
+}
+.rating{
+    border: 2px solid #EBEBEB;
+}
+.rating p{
+    width: 60%;
+    margin-left: 8%;
+    margin-top: 5%;
+}
+.i{
+    margin-top: 7%;
+    margin-left: 8%;
+}
+.chat{
+    display: inline-flex;
+    gap: 30px;
+    margin-left: 5%;
+    width: 90%;
+}
+.checked {
+    color: orange;
+  }
+  .cus{
+    display: inline-flex;
+    gap: 20px;
+    margin-top: 8%;
+    margin-left: 8%;
+  }
+  .cus p{
+    width: 100%;
+  }
+  .foot{
+    margin-top: 4%;
+    margin-left: 8%;
+    display: inline-flex;
+    gap: 75px;
+  }
+  .our a{
+    color: #2CBDE7;
+  }
+  footer {
+    background-color: #FBFCFC;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 80vh; /* ارتفاع الفوتر */
+}
+footer h3 {
+    font-weight: 800;
+    font-size: xx-large;
+    margin-bottom: 1%;
+}
+#to {
+    margin-bottom: 2.5%;
+}
+.send {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 650px;
+    height: 110px; /* ارتفاع الـ div */
+    background-color: white;
+    box-shadow: 0 5px 15px #c4c4c4;
+    margin-top: 20px; /* زيادة المسافة العلوية للتوسيط */
+    box-shadow: 0 5px 15px #c4c4c4;
+}
+.send span{
+    position: absolute;
+    color: rgba(128, 128, 128, 0.163);
+    z-index: 2;
+    left: 500px;
+    margin-bottom: 40px;
+}
+.send input {
+    padding: 10px;
+    width: 600px;
+    height: 70px;
+    position: relative;
+    border: none;
+}
+.send ::placeholder{
+    font-weight: 800;
+    font-size: larger;
+}
+.send button {
+    background-color: #F85A47;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    position: absolute;
+    right: 480px;
+    height: 60px;
+    width: 120px;
+    margin-top: 0.6%;
+}
+@media (max-width: 768px) {
+    header{
+        width: 100%;
+    }
+    .boss{
+        background-color: #BDCCFF;
+        z-index: -1;
+    }
+    nav{
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        margin-bottom: 10px;
+        width: 100%;
+        margin-left: -2px;
+        
+    }
+    .nav-links.show {
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        top: 70px;
+        right: 0;
+        background-color: white;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        z-index: 2;
+    }
+    nav h1{
+        padding: 17px;
+    }
+    .burger-menu {
+        display: flex;
+        padding: 17px;
+    }
+
+    .nav-links{
+        display: none;
+    }
+    .life {
+        flex-direction: column-reverse;
+        width: 90%;
+      }
+    
+      .left {
+        width: 91.5%;
+        align-items: center;
+        text-align: center;
+        margin-bottom: 20px;
+        /* background-color: #BDCCFF; تعيين لون الخلفية */
+        padding: 20px;
+      }
+    
+      .left h3,
+      .left #p,
+      .left #t,
+      .left .search,
+      .left h5,
+      .shar {
+        padding: 20px;
+        margin: 10px 0;
+      }
+    
+      .left .town {
+        margin-left: 0;
+        margin-top: 0;
+      }
+      .search{
+        display: inline-flex;
+        width: 100%;
+      }
+      .search i{
+        margin-top: 33px;
+      }
+    .shar{
+        width: 80%;
+        flex-wrap: wrap;
+        margin-top: -5%;
+        
+    }
+    .shar img {
+        padding: 15px;
+        margin-left: 25px;
+    }
+    .left h5{
+        text-align: center;
+    }
+    
+    .town img{
+        width: 100%;
+        margin-left: -4%;
+    }
+      .right {
+        width: 100%;
+        height: auto;
+        padding: 0;
+        margin-top: 0;
+        justify-content: space-around; /* توسيط الأيقونات على الأفقي */
+    align-items: center;
+    z-index: 1;
+
+      }
+      
+      ul {
+        list-style: none;
+        display: flex; /* جعل الأيقونات تظهر جنبًا إلى جنب */
+        margin: 0;
+        padding: 0;
+        margin-left: 30%;
+      }
+    
+      ul li {
+        margin-right: 15px;
+
+      }
+      .work{
+        text-align: center;
+      }
+      .card{
+        flex-direction: column;
+        gap: 20px;
+      }
+      .card svg{
+        margin-left: -30px;
+        padding-top: 100px;
+        padding-bottom: 100px;
+        transform: rotate(90deg);
+        -webkit-transform: rotate(90deg);
+        -moz-transform: rotate(90deg);
+        -ms-transform: rotate(90deg);
+        -o-transform: rotate(90deg);
+}
+ .card p{
+    width: 90%;
+ }
+.build{
+    position: relative;
+    left: 39px;
+}
+.sea{
+    position: relative;
+    left: 39px;
+}
+.hand{
+    position: relative;
+    left: 39px;
+}
+.view{
+    flex-direction: column;
+    gap: 10px;
+    margin-left: 25%;
+    padding-bottom: 20px;
+}
+.house p{
+ text-align: center;
+ width: 90%;
+}
+.manzl{
+    flex-direction: column;
+    margin-left: 12%;
+}
+.brown span{
+    margin-top: 90%;
+}
+.green span{
+    margin-top: 177%;
+}
+.week{
+    flex-direction: column;
+}
+.image-container img{
+    width: 100%;
+}
+#b{
+    display: none;
+}
+.son{
+    margin-top: -15%;
+}
+.son h3{
+    margin-left: 15%;
+}
+#or{
+    margin-left: 15%;
+    width: 70%;
+}
+.size{
+    margin-left: 4%;
+}
+.bud{
+    margin-left: 3%;
+}
+#o{
+    margin-left: 7%;
+    padding-right: 12%;
+}
+.flat{
+    margin-left: 4%;
+}
+.done{
+    margin-left: 4%;
+}
+#city{
+    margin-left: 6%;
+    padding-right: 4%;
+}
+.yes{
+    margin-left: 17%;
+}
+.yes button{
+    width: 100%;
+    padding: 20px;
+    margin-left: -12%;
+}
+.star h3{
+    text-align: center;
+}
+.chat{
+    flex-direction: column;
+    width: 60%;
+    margin-left: 25%;
+}
+.foot{
+    width: 50%;
+    flex-wrap: wrap;
+    margin-left: 35%;
+}
+.send span{
+    left: 11.5%;
+}
+.send button{
+    right: 8%;
+}
+}
