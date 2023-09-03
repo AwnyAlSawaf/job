@@ -322,9 +322,12 @@ svg{
     
 }
 .size{
-    display: inline-flex;
-    gap: 100%;
+    display: flex;
+    gap: 19%;
     font-weight: bold;
+}
+#ty{
+    margin-left: 4%;
 }
 .son{
     margin-top: 3%;
@@ -350,25 +353,24 @@ svg{
     
 }
 #o{
-    margin-left: 1%;
-    padding-right: 7%;
+   margin-left: 7.5%;
 }
 .flat{
-    display: inline-flex;
-    gap: 65%;
+    display: flex;
+    gap: 19%;
     margin-top: 4%;
     font-weight: bold;
 }
 #sta{
-   margin-left: 21%;
+   /* margin-left: 21%; */
 }
 .done{
     display: flex;
-    gap: 15%;
+    gap: 20%;
     margin-top: 2.5%;
 }
 #city{
-  margin-left: 6.5%;
+  margin-left: -4%;
 }
 .yes{
     margin-top: 19%;
@@ -696,25 +698,23 @@ footer h3 {
     flex-wrap: wrap;
 }
 .size{
-    gap: 79%;
+    gap: 22%;
 }
 #ty{
     padding-right: 6%;
 }
 #o{
-    margin-left: 3%;
-    padding-right: 16%;
+  margin-left: 11%;
 }
 .flat{
     margin-left: 1%;
-    gap: 50%;
+    gap: 22%;
 }
 .done{
     margin-left: 1%;
 }
 #city{
-    margin-left: 15%;
-    padding-right: 2%;
+   
 }
 .yes{
     margin-left: 17%;
