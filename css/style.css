@@ -635,9 +635,12 @@ footer h3 {
  text-align: center;
  width: 90%;
 }
+ .type{
+    width: 85%;
+}      
 .manzl{
     flex-direction: column;
-    margin-left: 12%;
+    margin-left: 3%;
 }
 .brown span{
     margin-top: 90%;
@@ -647,6 +650,7 @@ footer h3 {
 }
 .week{
     flex-direction: column;
+    width: 100%;
 }
 .image-container img{
     width: 100%;
@@ -671,8 +675,8 @@ footer h3 {
     margin-left: 3%;
 }
 #o{
-    margin-left: 7%;
-    padding-right: 12%;
+    margin-left: 9%;
+    padding-right: 17%;
 }
 .flat{
     margin-left: 4%;
@@ -681,8 +685,8 @@ footer h3 {
     margin-left: 4%;
 }
 #city{
-    margin-left: 6%;
-    padding-right: 4%;
+    margin-left: 8%;
+    padding-right: 9%;
 }
 .yes{
     margin-left: 17%;
@@ -693,20 +697,30 @@ footer h3 {
     margin-left: -12%;
 }
 .star h3{
-    text-align: center;
+margin-left: 15%;
 }
 .chat{
     flex-direction: column;
     width: 60%;
-    margin-left: 25%;
+    margin-left: 15%;
 }
 .foot{
     width: 50%;
     flex-wrap: wrap;
-    margin-left: 35%;
+    margin-left: 15%;
+}
+    .send{
+    width: 85%;
+}
+.send input{
+    width: 95%;
+    border: none;
+}
+.send ::placeholder{
+    left: 1%;
 }
 .send span{
-    left: 11.5%;
+    left: 9%;
 }
 .send button{
     right: 8%;
