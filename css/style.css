@@ -582,6 +582,7 @@ footer h3 {
         margin-left: -4%;
     }
       .right {
+        background-color: white;
         width: 100%;
         height: auto;
         padding: 0;
@@ -712,7 +713,7 @@ margin-top: 2%;
     padding-right: 6%;
 }
 #o{
-  margin-left: 11%;
+  margin-left: 7.5%;
 }
 .flat{
     margin-left: 1%;
@@ -721,8 +722,8 @@ margin-top: 2%;
 .done{
     margin-left: 1%;
 }
-#city{
-   
+#sta{
+   margin-left: -5%;
 }
 .yes{
     margin-left: 17%;
