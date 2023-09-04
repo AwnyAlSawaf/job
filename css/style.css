@@ -111,7 +111,7 @@ width: 550px;
 }
 .right{
     z-index: -1;
-     background-color: #BDCCFF;
+     background-color: white;
     
     height: 570px;
     width: 450px;
@@ -497,7 +497,7 @@ footer h3 {
         width: 100%;
     }
     .boss{
-        background-color: #BDCCFF;
+        background-color: white;
         z-index: -1;
     }
     nav{
@@ -646,12 +646,16 @@ footer h3 {
     margin-left: 16%;
     padding-bottom: 20px;
 }
+
 .house p{
  text-align: center;
  width: 90%;
+ font-size: small;
+margin-top: 2%;
 }
 .type{
     width: 85%;
+    margin-top: 5%;
 }
 .manzl{
     flex-direction: column;
@@ -680,14 +684,15 @@ footer h3 {
     margin-top: -15%;
 }
 .son h3{
-    margin-left: 15%;
+   
+    width: 100%;
 }
 .shit{
-    margin-left: -7%;
+    /* margin-left: -7%; */
 }
 #or{
-    margin-left: 15%;
-    width: 70%;
+    margin-top: 2%;
+    width: 100%;
 }
 .size{
     margin-left: 1%;
@@ -698,6 +703,7 @@ footer h3 {
 .shit{
     width: 100%;
     flex-wrap: wrap;
+    margin-top: 5%;
 }
 .size{
     gap: 22%;
@@ -734,10 +740,14 @@ footer h3 {
     width: 60%;
     margin-left: 15%;
 }
+.rating p{
+    width: 90%;
+}
 .foot{
     width: 80%;
     flex-wrap: wrap;
     margin-left: 15%;
+    margin-top: 5%;
 }
 .send{
     width: 90%;
